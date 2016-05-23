@@ -28,7 +28,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %package devel
 Summary:	%{summary}
 Provides:	golang(%{import_path}) = %{version}-%{release}
-BuildArch:	noarch
 
 %description devel
 %{summary}
